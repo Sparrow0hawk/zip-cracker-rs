@@ -1,1 +1,4 @@
 /target
+
+# compiled files
+*.o
