@@ -12,6 +12,9 @@ fn main() {
         .read_line(&mut password)
         .expect("Failed to read input");
 
+    // remove final \n
+    password.pop();
+
     let password_chars: Vec<char> = password.chars().collect();
 
     println!("{:?}", password_chars)
