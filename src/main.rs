@@ -6,7 +6,8 @@ fn main() {
 
     let mut password = String::new();
 
-    let characters = alphabet::get_alphabet();
+    // characters vector of characters to mutate with
+    let characters = vec!['a'];
 
     io::stdin()
         .read_line(&mut password)
